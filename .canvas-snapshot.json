@@ -71,14 +71,14 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 15564,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
     "in_paced_course": false,
     "question_types": [
-      "multiple_choice_question",
-      "multiple_answers_question"
+      "multiple_answers_question",
+      "multiple_choice_question"
     ]
   },
   "questions": [
@@ -385,7 +385,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192492\">Control Flow: Conditional Statements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9706,
+          "id": "9706",
           "text": "",
           "comments": "",
           "comments_html": "<p>The ternary operator can be more challenging to read when there are multiple\nbranching conditions.</p>",
@@ -409,7 +409,7 @@
           "html": "<p>When the ternary operator would take up more than one line</p>"
         },
         {
-          "id": 595,
+          "id": "595",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -442,7 +442,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192492\">Control Flow: Conditional Statements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3189,
+          "id": "3189",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! The format for a conditional expression, or ternary operator, in Python\nis:</p>\n\n<p><code>[value_if_true] if [condition] else [value_if_false]</code></p>",
@@ -450,7 +450,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>something if condition_a else something_else\n</code></pre></div>"
         },
         {
-          "id": 3366,
+          "id": "3366",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite- The format for a conditional expression, or ternary operator, in\nPython is:</p>\n\n<p><code>[value_if_true] if [condition] else [value_if_false]</code></p>",
@@ -458,7 +458,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>if condition_a something else something_else\n</code></pre></div>"
         },
         {
-          "id": 7399,
+          "id": "7399",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -638,7 +638,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3770,
+          "id": "3770",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must\nbe <code>False</code></p>",
@@ -646,7 +646,7 @@
           "html": "<p>100</p>"
         },
         {
-          "id": 7394,
+          "id": "7394",
           "text": "",
           "comments": "",
           "comments_html": "<p>&nbsp; &nbsp; </p>\n\n<p>For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must be\n<code>False</code>. <code>100 &lt; 101</code> evaluates to <code>True</code>, so this would return <code>True</code></p>",
@@ -654,7 +654,7 @@
           "html": "<p>101</p>"
         },
         {
-          "id": 2251,
+          "id": "2251",
           "text": "",
           "comments": "",
           "comments_html": "<p>&nbsp; &nbsp; </p>\n\n<p>For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must be\n<code>False</code>. <code>100 &lt; 102</code> evaluates to <code>True</code>, so this would return <code>True</code></p>",
@@ -662,7 +662,7 @@
           "html": "<p>102</p>"
         },
         {
-          "id": 2414,
+          "id": "2414",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must\nbe <code>False</code></p>",
@@ -670,7 +670,7 @@
           "html": "<p>99</p>"
         },
         {
-          "id": 4943,
+          "id": "4943",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
