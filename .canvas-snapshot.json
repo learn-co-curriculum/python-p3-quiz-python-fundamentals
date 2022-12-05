@@ -40,7 +40,7 @@
         "base": true
       }
     ],
-    "can_unpublish": false,
+    "can_unpublish": true,
     "can_update": true,
     "require_lockdown_browser": false,
     "require_lockdown_browser_for_results": false,
