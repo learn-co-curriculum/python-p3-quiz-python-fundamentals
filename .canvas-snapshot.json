@@ -1,10 +1,10 @@
 {
   "quiz": {
-    "id": 32113,
+    "id": 53507,
     "title": "Python Fundamentals Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/5935/quizzes/32113",
-    "mobile_url": "https://learning.flatironschool.com/courses/5935/quizzes/32113?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p3-quiz-python-fundamentals\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p3-quiz-python-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53507",
+    "mobile_url": "https://learning.flatironschool.com/courses/7559/quizzes/53507?force_user=1&persist_headless=1",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"python-p3-quiz-python-fundamentals\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/python-p3-quiz-python-fundamentals/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -21,12 +21,12 @@
     "due_at": null,
     "lock_at": null,
     "unlock_at": null,
-    "published": true,
-    "unpublishable": false,
+    "published": false,
+    "unpublishable": true,
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_32113"
+      "asset_string": "quizzes:quiz_53507"
     },
     "lock_explanation": "This quiz is currently locked.",
     "hide_results": null,
@@ -45,8 +45,8 @@
     "require_lockdown_browser": false,
     "require_lockdown_browser_for_results": false,
     "require_lockdown_browser_monitor": false,
-    "lockdown_browser_monitor_data": null,
-    "speed_grader_url": "https://learning.flatironschool.com/courses/5935/gradebook/speed_grader?assignment_id=192489",
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
     "permissions": {
       "manage": true,
       "read": true,
@@ -60,508 +60,69 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/32113/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/32113/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/5935/quizzes/32113/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53507/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53507/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53507/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/5935/quizzes/32113/submission_versions",
-    "assignment_id": 192489,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53507/submission_versions",
+    "assignment_id": 263586,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 15564,
+    "assignment_group_id": 25101,
     "show_correct_answers_last_attempt": true,
-    "version_number": 4,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": null,
+    "migration_id": "gfe990ae2e1f1b1c78fdbc5f1f6f6bfdf",
     "in_paced_course": false,
     "question_types": [
-      "multiple_answers_question",
-      "multiple_choice_question"
+
     ]
   },
   "questions": [
     {
-      "id": 213861,
-      "quiz_id": 32113,
-      "quiz_group_id": 7244,
-      "assessment_question_id": 337835,
-      "position": null,
+      "id": 366096,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 1,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>What is the value of <code>string</code> after this code has executed?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def print_param(param):\n&nbsp; &nbsp; print(param)\n\nstring = print_param(\"hello\")\n</code></pre></div>",
+      "question_text": "Which of the following functions would correctly return <code>True</code> when given the\nletter <code>\"o\"</code> as an argument?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192276\">Functions in Python</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Control Flow: Operators",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3692,
-          "text": "",
-          "html": "<p><code>None</code></p>",
-          "comments": "",
-          "comments_html": "<p>Right! A function call only returns the values in its <code>return</code> statement. Since\n<code>print_param()</code> does not have a <code>return</code> statement, it returns <code>None</code></p>",
-          "weight": 100.0
-        },
-        {
-          "id": 8445,
-          "text": "",
-          "html": "<p>hello</p>",
-          "comments": "",
-          "comments_html": "<p>Almost- <code>print_param()</code> prints <code>hello</code>, but a function call only returns the\nvalues in its <code>return</code> statement. Since <code>print_param()</code> does not have a <code>return</code>\nstatement, it returns <code>None</code></p>",
-          "weight": 0.0
-        },
-        {
-          "id": 5599,
-          "text": "",
-          "html": "<p>param</p>",
-          "comments": "",
-          "comments_html": "<p>Remember that a function call only returns the values in its <code>return</code> statement.\nSince <code>print_param()</code> does not have a <code>return</code> statement, it returns <code>None</code></p>\n\n<p><em>Also:</em> remember that any parameters that are passed to a function can be\nreferenced by their name throughout. <code>print_param()</code> prints <code>param</code>'s value,\n<code>hello</code>.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 8779,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213859,
-      "quiz_id": 32113,
-      "quiz_group_id": 7243,
-      "assessment_question_id": 337833,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>What will this code print out?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>name = \"Steven\"\n\nprint(f\"Hi, {name}.\" if name != \"Steven\" else f\"Goodbye, {name}.\")\n</code></pre></div>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192492\">Control Flow: Conditional Statements</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": 694,
-          "text": "",
-          "html": "<p>Goodbye, Steven.</p>",
-          "comments": "",
-          "comments_html": "<p>Right! Since <code>name != \"Steven\"</code> is <code>False</code>, our <code>else</code> condition will be printed\ninstead.</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 5192,
-          "text": "",
-          "html": "<p>Hi, Steven.</p>",
-          "comments": "",
-          "comments_html": "<p>Since <code>name != \"Steven\"</code> is <code>False</code>, our <code>else</code> condition will be printed\ninstead.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 8636,
-          "text": "",
-          "html": "<p>Hi, {name}.</p>",
-          "comments": "",
-          "comments_html": "<p>Remember that fStrings are formatted with the valuables of any variable names\ninside of curly brackets <code>{}</code>. This means that we will see the value of <code>name</code>\nin our output. Since <code>name != \"Steven\"</code> is <code>False</code>, our <code>else</code> condition will be\nprinted instead.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 8877,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213860,
-      "quiz_id": 32113,
-      "quiz_group_id": 7243,
-      "assessment_question_id": 337834,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>What will this code print out?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>name = \"Steven\"\n\nprint(f\"Hi, {name}.\" if name == \"Steven\" else f\"Goodbye, {name}.\")\n</code></pre></div>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "id": 4486,
-          "text": "",
-          "html": "<p>Hi, Steven.</p>",
-          "comments": "",
-          "comments_html": "<p>Right! Since <code>name == \"Steven\"</code> is <code>True</code>, our first condition will be printed\nwith <code>name</code> formatted into the fString.</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 4493,
-          "text": "",
-          "html": "<p>Goodbye, Steven.</p>",
-          "comments": "",
-          "comments_html": "<p>Since <code>name == \"Steven\"</code> is <code>True</code>, our first condition, &nbsp;<code>f\"Hi, {name}.\"</code>\nwill be printed with <code>name</code> formatted into the fString.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7664,
-          "text": "",
-          "html": "<p>Hi, {name}.</p>",
-          "comments": "",
-          "comments_html": "<p>Remember that fStrings are formatted with the valuables of any variable names\ninside of curly brackets <code>{}</code>. This means that we will see the value of <code>name</code>\nin our output. Since <code>name == \"Steven\"</code> is <code>True</code>, our first condition will be\nprinted with <code>Steven</code> replacing <code>{name}</code>.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 6425,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213591,
-      "quiz_id": 32113,
-      "quiz_group_id": 7242,
-      "assessment_question_id": 337668,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>What will this <code>while</code> loop do?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>x = 0\n\nwhile x &lt; 10:\n    print(\"so many loops\")\n</code></pre></div>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192417\">Control Flow: Loops</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": 909,
-          "text": "",
-          "html": "<p>Output \"so many loops\" infinitely.</p>",
-          "comments": "",
-          "comments_html": "<p>Right! Since we never change the value of <code>x</code>, <code>x</code> will always be less than 10.\nThe condition for the <code>while</code> loop is always <code>True</code>.</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 7004,
-          "text": "",
-          "html": "<p>Output \"so many loops\" one time.</p>",
-          "comments": "",
-          "comments_html": "<p>Since we never change the value of <code>x</code>, <code>x</code> will always be less than 10. The\ncondition for the <code>while</code> loop is always <code>True</code>.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 3361,
-          "text": "",
-          "html": "<p>Output \"so many loops\" 10 times.</p>",
-          "comments": "",
-          "comments_html": "<p>Since we never change the value of <code>x</code>, <code>x</code> will always be less than 10. The\ncondition for the <code>while</code> loop is always <code>True</code>.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 3566,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213858,
-      "quiz_id": 32113,
-      "quiz_group_id": 7242,
-      "assessment_question_id": 337832,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Here is a repeated list of <code>print()</code> statements.</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>print(\"hi\")\nprint(\"hi\")\nprint(\"hi\")\nprint(\"hi\")\nprint(\"hi\")\n</code></pre></div>\n<p>How would you repeat this with a <code>while</code> loop 100 times?</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192417\">Control Flow: Loops</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": 2219,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>counter = 0\n\nwhile counter &lt; 100:\n    print(\"hi\")\n    counter += 1\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Right! Since we start the counter at 0 and keep it running as long as the\ncounter is less than 100, this will loop 100 times (starting from 0 and\ncontinuing until the counter is 99).</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 917,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>counter = 1\n\nwhile counter &lt; 100:\n    print(\"hi\")\n    counter += 1\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Close, but not quite. Since the counter starts at one and the while loop only\nruns while the counter is&nbsp; <strong>less than</strong> &nbsp;100, this will only run our\nloop 99 times.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 6009,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>while True:\n    print(\"hi\")\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Be careful with this one — since the condition will always\nbe&nbsp;<code>True</code>&nbsp;and there's no&nbsp;<code>break</code>&nbsp;from the loop, this will\nrun in an infinite loop!</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 7372,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213862,
-      "quiz_id": 32113,
-      "quiz_group_id": 7243,
-      "assessment_question_id": 337836,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p>When is it a good idea to use an&nbsp;<code>if/else</code>&nbsp;statement instead of a\nternary operator (conditional expression)? Select all that apply.</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192492\">Control Flow: Conditional Statements</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": "9706",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>The ternary operator can be more challenging to read when there are multiple\nbranching conditions.</p>",
-          "weight": 100.0,
-          "html": "<p>When the&nbsp;<code>if</code>&nbsp;statement is complex with\nmultiple&nbsp;<code>elif</code>&nbsp;conditions</p>"
-        },
-        {
-          "id": "8853",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>The ternary operator can be more challenging to read when it requires nesting.</p>",
-          "weight": 100.0,
-          "html": "<p>When the conditional logic would require nested ternary operators</p>"
-        },
-        {
-          "id": "6646",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>If using a ternary operator makes your code harder to read, it's better to use a\nregular&nbsp;<code>if/else</code>&nbsp;statement.</p>",
-          "weight": 100.0,
-          "html": "<p>When the ternary operator would take up more than one line</p>"
-        },
-        {
-          "id": "595",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213863,
-      "quiz_id": 32113,
-      "quiz_group_id": 7243,
-      "assessment_question_id": 337837,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p>Let's refactor this code using a conditional expression (ternary operator):</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>if condition_a:\n    something\nelse:\n    something_else\n</code></pre></div>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/assignments/192492\">Control Flow: Conditional Statements</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": "3189",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Right! The format for a conditional expression, or ternary operator, in Python\nis:</p>\n\n<p><code>[value_if_true] if [condition] else [value_if_false]</code></p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>something if condition_a else something_else\n</code></pre></div>"
-        },
-        {
-          "id": "3366",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Not quite- The format for a conditional expression, or ternary operator, in\nPython is:</p>\n\n<p><code>[value_if_true] if [condition] else [value_if_false]</code></p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>if condition_a something else something_else\n</code></pre></div>"
-        },
-        {
-          "id": "7399",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213585,
-      "quiz_id": 32113,
-      "quiz_group_id": 7241,
-      "assessment_question_id": 337665,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>We have a function <code>use_truthiness()</code> that should return <code>True</code>:</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def use_truthiness(x):\n    return 7 &gt; 8 or x\n</code></pre></div>\n<p>What value(s) for <code>x</code> will make this function return <code>True</code>? Select all that\napply.</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": 3553,
-          "text": "",
-          "html": "<p><code>True</code></p>",
-          "comments": "",
-          "comments_html": "<p>Right! With the <code>or</code> operator, either the left side or the right side must be\ntruthy in order for the operator to return <code>True</code>.</p>",
-          "weight": 100.0
-        },
-        {
-          "id": 441,
-          "text": "",
-          "html": "<p><code>False</code></p>",
-          "comments": "",
-          "comments_html": "<p>With the <code>or</code> operator, either the left side or the right side must be truthy in\norder fort he operator to return <code>True</code>. In this case, neither <code>7 &gt; 8</code> nor\n<code>False</code> are truthy.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 636,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "id": 213586,
-      "quiz_id": 32113,
-      "quiz_group_id": 7241,
-      "assessment_question_id": 337666,
-      "position": null,
-      "question_name": "Question",
-      "question_type": "multiple_choice_question",
-      "question_text": "<p>Which of the following functions would correctly return <code>True</code> when given the\nletter <code>\"o\"</code> as an argument?</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
-      "answers": [
-        {
-          "id": 8328,
-          "text": "",
+          "weight": 100,
+          "migration_id": "RESPONSE_9678",
+          "id": 9678,
+          "text": "def check_vowel(letter): return (letter == \"a\" or letter == \"e\" or letter == \"i\" or letter == \"o\" or letter == \"u\")",
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def check_vowel(letter):\n    return (letter == \"a\" or\n            letter == \"e\" or\n            letter == \"i\" or\n            letter == \"o\" or\n            letter == \"u\")\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Right! We can use the <code>or</code> operator to check if the letter matches any vowel.</p>",
-          "weight": 100.0
+          "comments": "Right! We can use the or operator to check if the letter matches any vowel.",
+          "comments_html": "Right! We can use the <code>or</code> operator to check if the letter matches any vowel."
         },
         {
-          "id": 785,
-          "text": "",
+          "weight": 0,
+          "migration_id": "RESPONSE_8696",
+          "id": 8696,
+          "text": "def check_vowel(letter): return (letter == \"a\" and letter == \"e\" and letter == \"i\" and letter == \"o\" and letter == \"u\")",
           "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def check_vowel(letter):\n    return (letter == \"a\" and\n            letter == \"e\" and\n            letter == \"i\" and\n            letter == \"o\" and\n            letter == \"u\")\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>The <code>and</code> operator won't work here, since it only returns <code>True</code> if both sides\nof the operator are truthy. A letter can't be <code>\"a\"</code>, <code>\"e\"</code>, <code>\"i\"</code>, <code>\"o\"</code>, and\n<code>\"u\"</code> simultaneously!</p>",
-          "weight": 0.0
+          "comments": "The and operator won't work here, since it only returns True if both sides of the operator are truthy. A letter can't be \"a\", \"e\", \"i\", \"o\", and \"u\" simultaneously!",
+          "comments_html": "The <code>and</code> operator won't work here, since it only returns <code>True</code> if both sides\nof the operator are truthy. A letter can't be <code>\"a\"</code>, <code>\"e\"</code>, <code>\"i\"</code>, <code>\"o\"</code>, and\n<code>\"u\"</code> simultaneously!"
         },
         {
-          "id": 8834,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "weight": 0,
+          "migration_id": "RESPONSE_3920",
+          "id": 3920,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -572,45 +133,45 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 213590,
-      "quiz_id": 32113,
-      "quiz_group_id": 7241,
-      "assessment_question_id": 337667,
-      "position": null,
+      "id": 366097,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 2,
       "question_name": "Question",
       "question_type": "multiple_choice_question",
       "question_text": "<p>What would be the output of the following statement?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>letter = \"b\"\n\nif (letter == \"a\" or\n    letter == \"e\" or\n    letter == \"i\" or\n    letter == \"o\" or\n    letter == \"u\"):\n    # Begin \"if\" block\n    print(\"vowel.\")\nelse:\n    # Begin \"else\" block\n    print(\"not a vowel.\")\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Control Flow: Operators",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1000,
-          "text": "",
-          "html": "<p>not a vowel.</p>",
-          "comments": "",
-          "comments_html": "<p>Right! The <code>or</code> operators for the <code>if</code> condition will all evaluate to <code>False</code>.</p>",
-          "weight": 100.0
+          "weight": 100,
+          "migration_id": "RESPONSE_1036",
+          "id": 1036,
+          "text": "not a vowel.",
+          "comments": "Right! The or operators for the if condition will all evaluate to False.",
+          "comments_html": "Right! The <code>or</code> operators for the <code>if</code> condition will all evaluate to <code>False</code>."
         },
         {
-          "id": 9724,
-          "text": "",
-          "html": "<p>vowel.</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite- The <code>or</code> operators for the <code>if</code> condition will all evaluate to\n<code>False</code>.</p>",
-          "weight": 0.0
+          "weight": 0,
+          "migration_id": "RESPONSE_259",
+          "id": 259,
+          "text": "vowel.",
+          "comments": "Not quite- The or operators for the if condition will all evaluate to False.",
+          "comments_html": "Not quite- The <code>or</code> operators for the <code>if</code> condition will all evaluate to\n<code>False</code>."
         },
         {
-          "id": 1425,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "weight": 0,
+          "migration_id": "RESPONSE_1355",
+          "id": 1355,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -621,61 +182,511 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 213584,
-      "quiz_id": 32113,
-      "quiz_group_id": 7241,
-      "assessment_question_id": 337664,
-      "position": null,
+      "id": 366098,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 3,
+      "question_name": "Question",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Let's refactor this code using a conditional expression (ternary operator):</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>if condition_a:\n    something\nelse:\n    something_else\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Control Flow: Conditional Statements",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/assignments/263598\">Control Flow: Conditional Statements</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_8742",
+          "id": 8742,
+          "text": "something if condition_a else something_else",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>something if condition_a else something_else\n</code></pre></div>",
+          "comments": "Right! The format for a conditional expression, or ternary operator, in Python is: [value_if_true] if [condition] else [value_if_false]",
+          "comments_html": "<p>Right! The format for a conditional expression, or ternary operator, in Python\nis:</p>\n\n<p><code>[value_if_true] if [condition] else [value_if_false]</code></p>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_4884",
+          "id": 4884,
+          "text": "if condition_a something else something_else",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>if condition_a something else something_else\n</code></pre></div>",
+          "comments": "Not quite- The format for a conditional expression, or ternary operator, in Python is: [value_if_true] if [condition] else [value_if_false]",
+          "comments_html": "<p>Not quite- The format for a conditional expression, or ternary operator, in\nPython is:</p>\n\n<p><code>[value_if_true] if [condition] else [value_if_false]</code></p>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_1189",
+          "id": 1189,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366099,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 4,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What will this code print out?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>name = \"Steven\"\n\nprint(f\"Hi, {name}.\" if name == \"Steven\" else f\"Goodbye, {name}.\")\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": null,
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": null,
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_1501",
+          "id": 1501,
+          "text": "Hi, Steven.",
+          "comments": "Right! Since name == \"Steven\" is True, our first condition will be printed with name formatted into the fString.",
+          "comments_html": "Right! Since <code>name == \"Steven\"</code> is <code>True</code>, our first condition will be printed\nwith <code>name</code> formatted into the fString."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_3632",
+          "id": 3632,
+          "text": "Goodbye, Steven.",
+          "comments": "Since name == \"Steven\" is True, our first condition, f\"Hi, {name}.\" will be printed with name formatted into the fString.",
+          "comments_html": "Since <code>name == \"Steven\"</code> is <code>True</code>, our first condition, &nbsp;<code>f\"Hi, {name}.\"</code>\nwill be printed with <code>name</code> formatted into the fString."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_9590",
+          "id": 9590,
+          "text": "Hi, {name}.",
+          "comments": "Remember that fStrings are formatted with the valuables of any variable names inside of curly brackets {}. This means that we will see the value of name in our output. Since name == \"Steven\" is True, our first condition will be printed with Steven replacing {name}.",
+          "comments_html": "Remember that fStrings are formatted with the valuables of any variable names\ninside of curly brackets <code>{}</code>. This means that we will see the value of <code>name</code>\nin our output. Since <code>name == \"Steven\"</code> is <code>True</code>, our first condition will be\nprinted with <code>Steven</code> replacing <code>{name}</code>."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_595",
+          "id": 595,
+          "text": "I don't know.",
+          "html": "I don't know."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366100,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 5,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What will this <code>while</code> loop do?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>x = 0\n\nwhile x &lt; 10:\n    print(\"so many loops\")\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Control Flow: Loops",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/assignments/263599\">Control Flow: Loops</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_7582",
+          "id": 7582,
+          "text": "Output \"so many loops\" infinitely.",
+          "html": "Output \"so many loops\" infinitely.",
+          "comments": "Right! Since we never change the value of x, x will always be less than 10. The condition for the while loop is always True.",
+          "comments_html": "Right! Since we never change the value of <code>x</code>, <code>x</code> will always be less than 10.\nThe condition for the <code>while</code> loop is always <code>True</code>."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_8103",
+          "id": 8103,
+          "text": "Output \"so many loops\" one time.",
+          "html": "Output \"so many loops\" one time.",
+          "comments": "Since we never change the value of x, x will always be less than 10. The condition for the while loop is always True.",
+          "comments_html": "Since we never change the value of <code>x</code>, <code>x</code> will always be less than 10. The\ncondition for the <code>while</code> loop is always <code>True</code>."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_6049",
+          "id": 6049,
+          "text": "Output \"so many loops\" 10 times.",
+          "html": "Output \"so many loops\" 10 times.",
+          "comments": "Since we never change the value of x, x will always be less than 10. The condition for the while loop is always True.",
+          "comments_html": "Since we never change the value of <code>x</code>, <code>x</code> will always be less than 10. The\ncondition for the <code>while</code> loop is always <code>True</code>."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_9253",
+          "id": 9253,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366101,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 6,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>We have a function <code>use_truthiness()</code> that should return <code>True</code>:</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def use_truthiness(x):\n    return 7 &gt; 8 or x\n</code></pre></div>\n<p>What value(s) for <code>x</code> will make this function return <code>True</code>? Select all that\napply.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Control Flow: Operators",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_9326",
+          "id": 9326,
+          "text": "True",
+          "html": "<code>True</code>",
+          "comments": "Right! With the or operator, either the left side or the right side must be truthy in order for the operator to return True.",
+          "comments_html": "Right! With the <code>or</code> operator, either the left side or the right side must be\ntruthy in order for the operator to return <code>True</code>."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_6697",
+          "id": 6697,
+          "text": "False",
+          "html": "<code>False</code>",
+          "comments": "With the or operator, either the left side or the right side must be truthy in order fort he operator to return True. In this case, neither 7  8 nor False are truthy.",
+          "comments_html": "With the <code>or</code> operator, either the left side or the right side must be truthy in\norder fort he operator to return <code>True</code>. In this case, neither <code>7 &gt; 8</code> nor\n<code>False</code> are truthy."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_5339",
+          "id": 5339,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366102,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 7,
       "question_name": "Question",
       "question_type": "multiple_answers_question",
       "question_text": "<p>We have a function <code>return_false()</code> that uses both comparison and boolean\noperators:</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def return_false(x):\n    return 7 &gt; 4 and 100 &lt; x\n</code></pre></div>\n<p>What value(s) for <code>x</code> will make <code>return_false()</code> return <code>False</code>?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/5935/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Control Flow: Operators",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/control-flow-operators\">Control Flow: Operators</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "3770",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Right! For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must\nbe <code>False</code></p>",
-          "weight": 100.0,
-          "html": "<p>100</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_5613",
+          "id": 5613,
+          "text": "100",
+          "comments": "Right! For the  operator to return False, both sides of the operator must be False",
+          "comments_html": "Right! For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must\nbe <code>False</code>"
         },
         {
-          "id": "7394",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>&nbsp; &nbsp; </p>\n\n<p>For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must be\n<code>False</code>. <code>100 &lt; 101</code> evaluates to <code>True</code>, so this would return <code>True</code></p>",
-          "weight": 0.0,
-          "html": "<p>101</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_2201",
+          "id": 2201,
+          "text": "101",
+          "comments": "For the  operator to return False, both sides of the operator must be False. 100  101 evaluates to True, so this would return True",
+          "comments_html": "<p>&nbsp; &nbsp; </p>\n\n<p>For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must be\n<code>False</code>. <code>100 &lt; 101</code> evaluates to <code>True</code>, so this would return <code>True</code></p>"
         },
         {
-          "id": "2251",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>&nbsp; &nbsp; </p>\n\n<p>For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must be\n<code>False</code>. <code>100 &lt; 102</code> evaluates to <code>True</code>, so this would return <code>True</code></p>",
-          "weight": 0.0,
-          "html": "<p>102</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_3260",
+          "id": 3260,
+          "text": "102",
+          "comments": "For the  operator to return False, both sides of the operator must be False. 100  102 evaluates to True, so this would return True",
+          "comments_html": "<p>&nbsp; &nbsp; </p>\n\n<p>For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must be\n<code>False</code>. <code>100 &lt; 102</code> evaluates to <code>True</code>, so this would return <code>True</code></p>"
         },
         {
-          "id": "2414",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Right! For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must\nbe <code>False</code></p>",
-          "weight": 100.0,
-          "html": "<p>99</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_6388",
+          "id": 6388,
+          "text": "99",
+          "comments": "Right! For the  operator to return False, both sides of the operator must be False",
+          "comments_html": "Right! For the <code>&amp;</code> operator to return <code>False</code>, both sides of the operator must\nbe <code>False</code>"
         },
         {
-          "id": "4943",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_805",
+          "id": 805,
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366103,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 8,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is the value of <code>string</code> after this code has executed?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>def print_param(param):\n&nbsp; &nbsp; print(param)\n\nstring = print_param(\"hello\")\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Functions in Python",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/assignments/263610\">Functions in Python</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_1852",
+          "id": 1852,
+          "text": "None",
+          "html": "<code>None</code>",
+          "comments": "Right! A function call only returns the values in its return statement. Since print_param() does not have a return statement, it returns None",
+          "comments_html": "Right! A function call only returns the values in its <code>return</code> statement. Since\n<code>print_param()</code> does not have a <code>return</code> statement, it returns <code>None</code>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_2224",
+          "id": 2224,
+          "text": "hello",
+          "comments": "Almost- print_param() prints hello, but a function call only returns the values in its return statement. Since print_param() does not have a return statement, it returns None",
+          "comments_html": "Almost- <code>print_param()</code> prints <code>hello</code>, but a function call only returns the\nvalues in its <code>return</code> statement. Since <code>print_param()</code> does not have a <code>return</code>\nstatement, it returns <code>None</code>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_8630",
+          "id": 8630,
+          "text": "param",
+          "comments": "Remember that a function call only returns the values in its return statement. Since print_param() does not have a return statement, it returns None Also: remember that any parameters that are passed to a function can be referenced by their name throughout. print_param() prints param's value, hello.",
+          "comments_html": "<p>Remember that a function call only returns the values in its <code>return</code> statement.\nSince <code>print_param()</code> does not have a <code>return</code> statement, it returns <code>None</code></p>\n\n<p><em>Also:</em> remember that any parameters that are passed to a function can be\nreferenced by their name throughout. <code>print_param()</code> prints <code>param</code>'s value,\n<code>hello</code>.</p>"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_5823",
+          "id": 5823,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366104,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 9,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Here is a repeated list of <code>print()</code> statements.</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>print(\"hi\")\nprint(\"hi\")\nprint(\"hi\")\nprint(\"hi\")\nprint(\"hi\")\n</code></pre></div>\n<p>How would you repeat this with a <code>while</code> loop 100 times?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Control Flow: Loops",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/assignments/263599\">Control Flow: Loops</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_1514",
+          "id": 1514,
+          "text": "counter = 0 while counter 100: print(\"hi\") counter += 1",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>counter = 0\n\nwhile counter &lt; 100:\n    print(\"hi\")\n    counter += 1\n</code></pre></div>",
+          "comments": "Right! Since we start the counter at 0 and keep it running as long as the counter is less than 100, this will loop 100 times (starting from 0 and continuing until the counter is 99).",
+          "comments_html": "Right! Since we start the counter at 0 and keep it running as long as the\ncounter is less than 100, this will loop 100 times (starting from 0 and\ncontinuing until the counter is 99)."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_5242",
+          "id": 5242,
+          "text": "counter = 1 while counter 100: print(\"hi\") counter += 1",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>counter = 1\n\nwhile counter &lt; 100:\n    print(\"hi\")\n    counter += 1\n</code></pre></div>",
+          "comments": "Close, but not quite. Since the counter starts at one and the while loop only runs while the counter is less than 100, this will only run our loop 99 times.",
+          "comments_html": "Close, but not quite. Since the counter starts at one and the while loop only\nruns while the counter is&nbsp; <strong>less than</strong> &nbsp;100, this will only run our\nloop 99 times."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_1316",
+          "id": 1316,
+          "text": "while True: print(\"hi\")",
+          "html": "<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>while True:\n    print(\"hi\")\n</code></pre></div>",
+          "comments": "Be careful with this one — since the condition will always beTrueand there's nobreakfrom the loop, this will run in an infinite loop!",
+          "comments_html": "Be careful with this one — since the condition will always\nbe&nbsp;<code>True</code>&nbsp;and there's no&nbsp;<code>break</code>&nbsp;from the loop, this will\nrun in an infinite loop!"
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_9620",
+          "id": 9620,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366105,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 10,
+      "question_name": "Question",
+      "question_type": "multiple_answers_question",
+      "question_text": "When is it a good idea to use an&nbsp;<code>if/else</code>&nbsp;statement instead of a\nternary operator (conditional expression)? Select all that apply.",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Control Flow: Conditional Statements",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/assignments/263598\">Control Flow: Conditional Statements</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_8774",
+          "id": 8774,
+          "text": "When theifstatement is complex with multipleelifconditions",
+          "html": "When the&nbsp;<code>if</code>&nbsp;statement is complex with\nmultiple&nbsp;<code>elif</code>&nbsp;conditions",
+          "comments": "The ternary operator can be more challenging to read when there are multiple branching conditions.",
+          "comments_html": "The ternary operator can be more challenging to read when there are multiple\nbranching conditions."
+        },
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_8829",
+          "id": 8829,
+          "text": "When the conditional logic would require nested ternary operators",
+          "comments": "The ternary operator can be more challenging to read when it requires nesting."
+        },
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_3746",
+          "id": 3746,
+          "text": "When the ternary operator would take up more than one line",
+          "comments": "If using a ternary operator makes your code harder to read, it's better to use a regularif/elsestatement.",
+          "comments_html": "If using a ternary operator makes your code harder to read, it's better to use a\nregular&nbsp;<code>if/else</code>&nbsp;statement."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_1353",
+          "id": 1353,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 366106,
+      "quiz_id": 53507,
+      "quiz_group_id": null,
+      "assessment_question_id": null,
+      "position": 11,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What will this code print out?</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>name = \"Steven\"\n\nprint(f\"Hi, {name}.\" if name != \"Steven\" else f\"Goodbye, {name}.\")\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "Source/s:Control Flow: Conditional Statements",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/assignments/263598\">Control Flow: Conditional Statements</a></li></ul><p></p>",
+      "answers": [
+        {
+          "weight": 100,
+          "migration_id": "RESPONSE_7745",
+          "id": 7745,
+          "text": "Goodbye, Steven.",
+          "comments": "Right! Since name != \"Steven\" is False, our else condition will be printed instead.",
+          "comments_html": "Right! Since <code>name != \"Steven\"</code> is <code>False</code>, our <code>else</code> condition will be printed\ninstead."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_1788",
+          "id": 1788,
+          "text": "Hi, Steven.",
+          "comments": "Since name != \"Steven\" is False, our else condition will be printed instead.",
+          "comments_html": "Since <code>name != \"Steven\"</code> is <code>False</code>, our <code>else</code> condition will be printed\ninstead."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_1483",
+          "id": 1483,
+          "text": "Hi, {name}.",
+          "comments": "Remember that fStrings are formatted with the valuables of any variable names inside of curly brackets {}. This means that we will see the value of name in our output. Since name != \"Steven\" is False, our else condition will be printed instead.",
+          "comments_html": "Remember that fStrings are formatted with the valuables of any variable names\ninside of curly brackets <code>{}</code>. This means that we will see the value of <code>name</code>\nin our output. Since <code>name != \"Steven\"</code> is <code>False</code>, our <code>else</code> condition will be\nprinted instead."
+        },
+        {
+          "weight": 0,
+          "migration_id": "RESPONSE_5588",
+          "id": 5588,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
